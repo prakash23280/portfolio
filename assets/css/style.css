@@ -493,9 +493,10 @@ body{
 }
 
 .social-icons a:hover{
-    background:#3b82f6;
+    background:#2563eb;
     transform:translateY(-4px);
-    box-shadow:0 10px 25px rgba(59,130,246,.35);
+    box-shadow:0 0 20px #3b82f6;
+
 }
 
 /* ===== HERO TEXT ===== */
