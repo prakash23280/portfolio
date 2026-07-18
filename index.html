@@ -10,32 +10,33 @@
 
 <link rel="stylesheet" href="assets/css/style.css">
 
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 </head>
 
 <body>
 
 <!-- Navigation --> 
-<nav class="navbar">
+<header>
+    <nav class="navbar">
 
-    <div class="logo">
-        DevOps Portfolio
-    </div>
+        <h2 class="logo">DevOps Portfolio</h2>
 
-    <ul class="nav-links">
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
 
-        <li><a href="#">Home</a></li>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 
-        <li><a href="#about">About</a></li>
-
-        <li><a href="#skills">Skills</a></li>
-
-        <li><a href="#projects">Projects</a></li>
-
-        <li><a href="#contact">Contact</a></li>
-
-    </ul>
-
-</nav>
+    </nav>
+</header>
 <!-- Hero Section -->
 
 <section class="hero">
@@ -57,12 +58,13 @@
 
     <h2>
         <span id="typing"></span>
-    </h2>
+    <h2 class="typing-text">
+    <span id="typing"></span>
+</h2>
 
-    <p class="hero-description">
-        Passionate about Cloud Computing, AWS, Linux, Docker,
-        Kubernetes Terraform Python and Automatong tasks.
-    </p>
+<p class="hero-description">
+    Passionate about building scalable cloud infrastructure, automating deployments, and managing modern DevOps workflows using AWS, Linux, Docker, Kubernetes, Terraform, and CI/CD.
+</p>
 
     <div class="hero-buttons">
 
@@ -83,15 +85,15 @@
     <div class="social-icons">
 
     <a href="https://github.com/prakash23280" target="_blank">
-        GitHub
+        <i class="fab fa-github"></i> GitHub
     </a>
 
     <a href="https://www.linkedin.com/in/nadiminti-prakash-99802a355" target="_blank">
-        LinkedIn
+        <i class="fab fa-linkedin"></i> LinkedIn
     </a>
 
-    <a href="mailto:prakash23280@gmail.com">
-        Email
+    <a href="mailto:prakash23280@email.com">
+        <i class="fas fa-envelope"></i> Email
     </a>
 
 </div>
