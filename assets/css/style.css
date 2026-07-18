@@ -42,7 +42,7 @@ body{
 }
 
 .menu-toggle{
-    display: block;
+    display: none;
     color: white;
     font-size: 32px;
     cursor: pointer;
