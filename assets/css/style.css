@@ -42,10 +42,11 @@ body{
 }
 
 .menu-toggle{
-    display: none;
+    display: block;
     color: white;
-    font-size: 28px;
+    font-size: 32px;
     cursor: pointer;
+    margin-left: auto;
 }
 
 .logo{
