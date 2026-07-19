@@ -289,41 +289,7 @@ body{
 
 }
 
-.btn:hover{
-
-    transform:translateY(-5px);
-
-    box-shadow:0 0 30px #3b82f6;
-
-}
-
-.btn-outline{
-
-    background:transparent;
-
-    border:2px solid white;
-
-}
-
-.btn-outline:hover{
-
-    background:white;
-
-    color:#0f172a;
-
-}
-
-/* ===============================
-   FLOAT ANIMATION
-================================== */
-
-@keyframes float{
-
-    0%{
-
-        transform:translateY(0);
-
-    }
+.
 
     50%{
 
