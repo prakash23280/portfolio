@@ -508,6 +508,13 @@ body{
 
 @media (max-width: 900px) {
 
+    .hero h1{
+        font-size:55px;
+        line-height:1.1;
+    }
+
+
+
     .navbar{
         flex-direction: row;
         justify-content: space-between;
